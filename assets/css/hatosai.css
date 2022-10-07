@@ -11,3 +11,11 @@
         display: flex;
     }
 }
+@media screen and (max-width: 480px) {
+    .title{
+        background-color:orange;
+    }
+    .honbun{
+        font-size: larger;
+    }
+}
