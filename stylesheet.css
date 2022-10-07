@@ -1,15 +1,8 @@
 html{
-    margin-left: auto;
-    margin-right: auto;
-}
-body{
-    font-family:"Avenir New";
-    text-decoration: none;
-}
-.logo{
-    float: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 img{
-    width: 100%;
-    height: auto;
+    width:100%;
+    height:auto;
 }
