@@ -15,6 +15,7 @@
     }
     .menubar{
         margin: 0 auto;
+        text-decoration: none;
     }
     table{
         width: 100%;

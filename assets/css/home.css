@@ -1,5 +1,7 @@
 @media screen and (min-width: 481px){
-    
+    .m1-1{
+        font-size: 32pt;
+    }
 }
 @media screen and (max-width: 480px) {
     
