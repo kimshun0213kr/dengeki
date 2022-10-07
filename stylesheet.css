@@ -41,6 +41,9 @@
     table{
         width: 100%;
     }
+    .t1{
+        align-items: center;
+    }
     .twitter{
         margin: 0 auto;
     }
