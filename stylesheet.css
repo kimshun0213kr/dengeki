@@ -1,42 +1,47 @@
-html{
-    text-align: center;
-}
-img{
-    width:100%;
-    height:auto;
-}
-.menu{
-    align-items: center;
-}
-.menubar{
-    margin: 0 auto;
-}
-table{
-    width: 100%;
-}
-.t1{
-    align-items: center;
-}
-.twitter{
-    width: 600px;
-    margin: 0 auto;
-    display: flex;
-}
-@media screen and (max-width: 480px) {    html{
+@media screen and (min-width: 481px){
+    html{
         text-align: center;
     }
     img{
         width:100%;
         height:auto;
     }
-    .catch{
-        text-align: center;
+    .menu{
+        align-items: center;
+    }
+    .menubar{
+        margin: 0 auto;
+    }
+    table{
         width: 100%;
-        color: #000;
-        position: absolute;
-        top: 50%;
-        left: 0;
-        -webkit-transform: translate(0, -50%);
-        transform: translate(0, -50%);
+    }
+    .t1{
+        align-items: center;
+    }
+    .twitter{
+        width: 600px;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+@media screen and (max-width: 480px) {
+    html{
+        text-align: center;
+    }
+    img{
+        width:100%;
+        height:auto;
+    }
+    .menu{
+        align-items: center;
+    }
+    .menubar{
+        margin: 0 auto;
+    }
+    table{
+        width: 100%;
+    }
+    .twitter-timeline{
+        width: 50%;
     }
 }
