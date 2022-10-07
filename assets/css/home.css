@@ -4,4 +4,7 @@
     }
 }
 @media screen and (max-width: 480px) {
+    .next{
+        font-size: 8pt;
+    }
 }
