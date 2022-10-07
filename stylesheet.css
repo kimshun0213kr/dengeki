@@ -5,7 +5,21 @@ img{
     width:100%;
     height:auto;
 }
-/*.twitter{
+.menu{
+    align-items: center;
+}
+.menubar{
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+}
+.t1{
+    align-items: center;
+}
+.twitter{
+    width: 600px;
+    margin: 0 auto;
     display: flex;
 }
 @media screen and (max-width: 480px) {    html{
@@ -25,4 +39,4 @@ img{
         -webkit-transform: translate(0, -50%);
         transform: translate(0, -50%);
     }
-}*/
+}
