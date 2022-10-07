@@ -1,0 +1,15 @@
+html{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    font-family:"Avenir New";
+    text-decoration: none;
+}
+.logo{
+    float: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
