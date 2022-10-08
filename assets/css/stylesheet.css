@@ -13,6 +13,8 @@
         padding: 0;
     }
     .gnavi__wrap {
+        position: sticky;
+        top:0px;
         width: 100%;
         margin: 0 auto;
     }
@@ -149,7 +151,9 @@
     ul{
         list-style: none;
         padding: 0;
-    }.gnavi__wrap {
+    }.gnavi__wrap {        
+        position: sticky;
+        top:0px;
         width: 100%;
         margin: 0 auto;
     }
