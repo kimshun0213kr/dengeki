@@ -3,7 +3,7 @@ function fadeAnime(){
 
   // ふわっ
   $('.next').each(function(){ //fadeUpTriggerというクラス名が
-    var elemPos = $(this).offset().top+40;//top-50とすれば50px手前でロード
+    var elemPos = $(this).offset().top+100;//top-50とすれば50px手前でロード
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
     if (scroll >= elemPos - windowHeight){

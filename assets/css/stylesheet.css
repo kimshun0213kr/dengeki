@@ -152,8 +152,8 @@
     ul{
         list-style: none;
         padding: 0;
-    }.gnavi__wrap {    
-        z-index: 1;
+    }.gnavi__wrap {
+        z-index: 1;        
         position: sticky;
         top:0px;
         width: 100%;
