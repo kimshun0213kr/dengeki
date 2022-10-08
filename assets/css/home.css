@@ -1,38 +1,46 @@
-@media screen and (min-width: 481px){
-    .m1-1{
-        font-size: 32pt;
-    }
-    .fadeUp {
-        animation-name: fadeUpAnime;
-        animation-duration:2s;
-        animation-fill-mode:forwards;
+.m1-1{
+    font-size: 32pt;
+}
+.fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+@keyframes fadeUpAnime{
+    from {
         opacity: 0;
+        transform: translateY(100px);
     }
-    @keyframes fadeUpAnime{
-        from {
-            opacity: 0;
-            transform: translateY(100px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-    .top{
-        opacity: 0;
-    }
-    .fox{
-        width:100%;
-    }
-    .nextkouen{
-        width: 50%;
-        margin:auto;
-        background-color: #fc8819;
-        transform: translate(0, -350%);
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
-@media screen and (max-width: 480px) 
+.top{
+    opacity: 0;
+}
+.fox{
+    width:100%;
+}
+.next{
+    position: relative;
+}
+.nextkouen{
+    font-size: 18pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    width: 70%;
+    margin:auto;
+    background-color: #fc8819;
+}
+@media screen and (max-width: 960px) 
 {
+    .m1-1{
+        font-size: 24pt;
+    }
     .fadeUp {
         animation-name: fadeUpAnime;
         animation-duration:2s;
@@ -54,12 +62,17 @@
     }
     .fox{
         width:100%;
+    }.next{
+        position: relative;
     }
     .nextkouen{
-        width: 70%;
+        font-size: 16pt;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);   
         margin:auto;
-        font-size: 8pt;
-        background-color:#fc8819;
-        transform: translate(0, -250%);
+        background-color: #fc8819;
     }
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 481px){
+@media screen and (min-width: 961px){
     html{
         text-align: center;
         color:#4d3217;
@@ -11,6 +11,8 @@
     ul{
         list-style: none;
         padding: 0;
+        margin:0;
+        border: 0;
     }
     .gnavi__wrap {
         z-index: 1;
@@ -25,18 +27,22 @@
     .gnavi__list {
         width: 20%;
         height: 60px;
+        border-top: 2px solid #4d3217;
+        border-bottom: 2px solid #4d3217;
+        border-right: 1px solid #4d3217;
+        border-left: 1px solid #4d3217;
         background-color:#fc8819;
         position: relative;
         transition: all .3s;
     }
     .gnavi__list:hover {
         background-color: #4d3217;
+        border: 2px solid #fc8819;
     }
     .gnavi__list:not(:first-child)::before {
         content: "";
         width: 1px;
         height: 100%;
-        background-color: #fff;
         position: absolute;
         top: 0;
         left: 0;
@@ -75,6 +81,10 @@
     }
     .dropdown__list {
         background-color:#4d3217;
+        /*border-top: 1px solid #fc8819;
+        border-bottom: 1px solid #fc8819;
+        border-right: 2px solid #fc8819;
+        border-left: 2px solid #fc8819;*/
         height: 60px;
         transition: all .3s;
         position: relative;
@@ -139,7 +149,7 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
     html{
         color:#4d3217;
         text-align: center;
@@ -153,7 +163,7 @@
         list-style: none;
         padding: 0;
     }.gnavi__wrap {
-        z-index: 1;        
+        z-index: 1;    
         position: sticky;
         top:0px;
         width: 100%;
