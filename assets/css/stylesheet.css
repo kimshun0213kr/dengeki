@@ -11,7 +11,8 @@
     ul{
         list-style: none;
         padding: 0;
-    }.gnavi__wrap {
+    }
+    .gnavi__wrap {
         width: 100%;
         margin: 0 auto;
     }
@@ -110,16 +111,29 @@
         right: 15px;
         top: calc(50% - 5px);
     }
+    .dengeki{
+        display: flex;
+    }
+    .m1{
+        width:80%;
+    }
+    .m1-3{
+        width: 100%;
+        margin: 0 auto;
+    }
     .t1{
         align-items: center;
     }
     .twitter{
-        width: 600px;
+        width: 300px;
         margin: 0 auto;
-        display: flex;
     }
     .twitter-timeline{
         width: 300px;
+    }
+    .gnavi__lists1{
+        display: flex;
+        width: 100%;
     }
 }
 @media screen and (max-width: 480px) {

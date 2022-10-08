@@ -2,6 +2,31 @@
     .m1-1{
         font-size: 32pt;
     }
+    .fadeUp {
+        animation-name: fadeUpAnime;
+        animation-duration:2s;
+        animation-fill-mode:forwards;
+        opacity: 0;
+    }
+    @keyframes fadeUpAnime{
+        from {
+            opacity: 0;
+            transform: translateY(100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .top{
+        opacity: 0;
+    }
+    .nextkouen{
+        width: 50%;
+        margin:auto;
+        background-color: orange;
+        transform: translate(0, -350%);
+    }
 }
 @media screen and (max-width: 480px) {
     .next{
