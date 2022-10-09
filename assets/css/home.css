@@ -25,6 +25,7 @@
 }
 .next{
     position: relative;
+    opacity: 0;
 }
 .nextkouen{
     font-size: 18pt;
@@ -64,9 +65,51 @@
         width:100%;
     }.next{
         position: relative;
+        opacity: 0;
     }
     .nextkouen{
         font-size: 16pt;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);   
+        margin:auto;
+        background-color: #fc8819;
+    }
+}
+@media screen and (max-width: 480px) 
+{
+    .m1-1{
+        font-size: 18pt;
+    }
+    .fadeUp {
+        animation-name: fadeUpAnime;
+        animation-duration:2s;
+        animation-fill-mode:forwards;
+        opacity: 0;
+    }
+    @keyframes fadeUpAnime{
+        from {
+            opacity: 0;
+            transform: translateY(100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .top{
+        opacity: 0;
+    }
+    .fox{
+        width:100%;
+    }.next{
+        position: relative;
+        opacity: 0;
+    }
+    .nextkouen{
+        font-size: 12pt;
         position: absolute;
         top: 50%;
         left: 50%;
