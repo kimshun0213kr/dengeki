@@ -2,3 +2,8 @@
     background-color: #fc8819;
     width:100%;
 }
+@media screen and (max-width: 480px) {
+    .m1{
+        font-size: 14px;
+    }
+}

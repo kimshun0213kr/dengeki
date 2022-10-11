@@ -9,26 +9,28 @@
         width:100%;
         height:auto;
     }
-    a{
-        color:#4d3217;
-    }
-    .menu{
-        z-index: 3;
-        position: sticky;
-        top:0px;
-    }
     .dengeki{
         display: flex;
     }
+    .search{
+        width: 15%;
+        height:105vh;
+    }
+    .menu-button{
+        align-content: left;
+    }
+    .latest{
+        border-color: #fc8819;
+    }
     .m1{
-        width:80%;
+        width:65%;
+        margin: 0 auto;
     }
     .m1-3{
         width: 100%;
         margin: 0 auto;
     }
     .t1{
-        width: 20%;
         align-items: center;
     }
     .twitter{
@@ -37,10 +39,6 @@
     }
     .twitter-timeline{
         width: 300px;
-    }
-    .gnavi__lists1{
-        display: flex;
-        width: 100%;
     }
     .coming_soon{
         background-color: #fc8819;
@@ -58,14 +56,6 @@
     img{
         width:100%;
         height:auto;
-    }
-    a{
-        color:#4d3217;
-    }
-    .menu{
-        z-index: 3;
-        position: sticky;
-        top:0px;
     }
     .t1{
         margin:auto;
@@ -88,14 +78,6 @@
     img{
         width:100%;
         height:auto;
-    }
-    a{
-        color:#4d3217;
-    }
-    .menu{
-        z-index: 3;
-        position: sticky;
-        top:0px;
     }
     .t1{
         align-items: center;

@@ -1,0 +1,75 @@
+@media screen and (min-width: 481px){
+    .l2022{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .l2022list{
+        display: flex;
+    }
+    .l2022lists {
+        cursor: pointer;
+        max-width: 33%;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+    .l2022lists img {
+        transition: transform .6s ease; /* ゆっくり変化させる */
+        overflow: hidden;
+        width:100%;
+        height: 100%;
+    }
+    .l2022lists:hover img {
+        transform: scale(1.1); /* 拡大 */
+    }
+    .l2022lists h1 {
+        align-items: center; /* テキストの中央揃え */
+        bottom: 0;
+        color: #fff; /* テキストの色 */
+        display: flex; /* テキストの中央揃え */
+        justify-content: center; /* テキストの中央揃え */
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 80%; /* テキストを横幅いっぱいにならないようにする */
+        z-index: 2;
+    }
+      /* マスク */
+    .l2022lists::before {
+        background: rgba(0, 0, 0, 0.6); /* マスクの色(黒の60%) */
+        bottom: 0;
+        content: '';
+        height: auto;
+        left: 0;
+        opacity: 0; /* 最初は透明（非表示） */
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: opacity .6s ease; /* ゆっくりopacityのみへ変化させる */
+        width: 100%;
+        z-index: 1;
+    }
+    .l2022lists:hover::before {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 480px) {
+    .l2022lists {
+        position: relative;
+    }
+    .l2022name{
+        color:white;
+        position: absolute;
+        top:50%;
+        left:50%;
+        width: 100%;
+        transform: translate(-50%, -50%);   
+        margin:auto;
+    }
+    .yamada-annai{
+        font-size: 8pt;
+    }
+}

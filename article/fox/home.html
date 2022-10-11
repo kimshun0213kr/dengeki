@@ -6,12 +6,13 @@
         <!--これはWindowsで開く際に、古い奴だと正しく処理されないため、それを防ぐコード-->
         <meta name="viewport"content="width=device-width,user-scalable=yes,initial-scalable=1.0">
         <link rel = "stylesheet" href = "../../assets/css/stylesheet.css" type="text/css">
-        <link rel = "stylesheet" href = "../../assets/css/kouen.css" type = "text/css">
+        <link rel = "stylesheet" href = "../../assets/css/yamada.css" type = "text/css">
         <title>
-            お知らせ - でんげき
+            きつねのお部屋 - でんげき
         </title>
         <link rel="shortcut icon" href="../../assets/img/icon.ico" type="image/vnd.microsoft.icon">
         <link rel="apple-touch-icon" src="../../assets/img/apple-touch-icon.jpeg">
+        <!--<script src="kakikae.js"></script>-->
     </head>
     <body>
         <header>
@@ -20,37 +21,22 @@
         <main>
             <iframe class="menu" frameborder="0" width="100%" height="auto" src="../../assets/menu/mainmenu.html"></iframe>
             <div class="dengeki">
+                <iframe class="search" frameborder="0" width="15%" height="100%" src="search.html"></iframe>
                 <div class = "m1">
-                    <div class="l2022">
+                    <div class="title">
                         <h1>
-                            2022年度
+                            きつねのお部屋
                         </h1>
-                        <ul class="l2022list">
-                            <li class="l2022lists">
-                                <a href="2022/kouryuu/kouryuu.html">
-                                    <img src="../../assets/img/2022kouryuu.jpg">
-                                    <h1 class="l2022name">
-                                        交流劇
-                                    </h1>
-                                </a>
-                            </li>
-                            <li class="l2022lists">
-                                <a href="2022/hatosai2022/hatosai2022.html">
-                                    <img src="../../assets/img/2022hatosai.jpg">
-                                    <h1 class="l2022name">
-                                        鳩山祭公演
-                                    </h1>
-                                </a>
-                            </li>
-                            <li class="l2022lists">
-                                <a href="2022/january/january.html">
-                                    <img src="../../assets/img/january.jpg">
-                                    <h1 class="l2022name">
-                                        冬公演
-                                    </h1>
-                                </a>
-                            </li>
-                        </ul>
+                    </div>
+                    <iframe class="latest" frameborder="4" width="90%" height="180px" bordercolor="#fc8819" src="latest.html"></iframe>
+                    <div class="honbun">
+                        <p>
+                            きつねのお部屋へようこそ。<br>
+                            「きつねのお部屋」では、でんげきの部員が、でんげきぎつねのつぶやきを紹介していくページです。<br>
+                            きつねがボソッとつぶやいたことから、インタビューの結果まで、<br>
+                            部員が聞き手となって纏めます。
+                        </p>
+                        <iframe class="latestlist" frameborder="0" width="90%" height="600" src="latestlist.html"></iframe>
                     </div>
                 </div>
                 <div class ="t1">
@@ -66,8 +52,6 @@
                 </div>
             </div>
         </main>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="assets/js/anime.js"></script>
     </body>
     <footer class = "footer">
         <p class = "copy">
