@@ -19,6 +19,7 @@
     }
     .dengeki{
         display: flex;
+        margin: auto;
     }
     .m1{
         width:80%;

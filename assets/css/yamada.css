@@ -58,6 +58,11 @@
     .title{
         background-color:#fc8819 ;
     }
+    .right{
+        text-align: right;
+        align-content: right;
+        align-self: right;
+    }
 }
 @media screen and (max-width: 960px) {
     html{
