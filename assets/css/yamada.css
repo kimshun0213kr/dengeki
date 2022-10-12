@@ -12,6 +12,9 @@
     ul{
         list-style: none;
     }
+    iframe{
+        scale: none;
+    }
     .dengeki{
         display: flex;
     }
@@ -62,6 +65,10 @@
         text-align: right;
         align-content: right;
         align-self: right;
+    }
+    .latest{
+        border: 4px;
+        border-color: #fc8819;
     }
 }
 @media screen and (max-width: 960px) {

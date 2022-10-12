@@ -1,0 +1,28 @@
+html{
+    color:#4d3217;
+    font-family: "Avenir New";
+}
+a{
+    color:#4d3217;
+}
+th{
+    height:auto;
+}
+.data{
+    text-align: right;
+}
+table{
+    width: 100%;
+}
+.t-title{
+    width: 65%;
+}
+.date{
+    width: 10%;
+}
+.writer{
+    width: 10%;
+}
+.tag{
+    width: 15%;
+}
