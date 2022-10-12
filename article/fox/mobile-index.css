@@ -1,0 +1,29 @@
+details {
+    background-color: cyan;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 3px;
+    padding: .7em .7em .7em;
+    box-shadow: 0 0 8px 1px rgba(189,189,189,0.5);/* ボックス周りの影 */
+}
+/* 目次の開閉のテキスト表示 */
+summary {
+    padding: .7em .7em .7em;
+    font-weight: bold;
+    margin: -.7em;
+    text-align: center;
+    cursor: pointer;
+}
+/* 目次を開いた表示 */
+details[open] {
+    padding: .7em;
+    border: none;
+    box-shadow: none;
+    border-top: 1px solid rgb(200,200,200);
+    padding-bottom: 0;
+}
+/* 目次を閉じた表示 */
+details[open] summary {
+    border: 1px solid rgb(200,200,200);
+    padding: .7em;
+    box-shadow: 0 0 8px 1px rgba(189,189,189,0.5);/* ボックス周りの影 */
+}

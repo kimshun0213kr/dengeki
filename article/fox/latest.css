@@ -5,6 +5,9 @@ html{
 a{
     color:#4d3217;
 }
+ul{
+    list-style: none;
+}
 .data{
     text-align: right;
 }
