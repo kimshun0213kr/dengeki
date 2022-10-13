@@ -7,6 +7,9 @@
 .m1 img{
     width:30%;
 }
+.latestarticle h1{
+    font-size: 12pt;
+}
 @media screen and (max-width: 480px) {
     .m1 .blog-bar{
         text-align: left;
@@ -16,5 +19,8 @@
     }
     .m1 img{
         width:80%;
+    }
+    .latestarticle h1{
+        font-size: 12pt;
     }
 }

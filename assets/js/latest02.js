@@ -1,8 +1,8 @@
-let title01 = 'AAA'
-let year01 = '2023'
-let month01 = '5'
-let day1 = '5'
-let writer01 = 'aaa'
+let title01 = 'abc'
+let year01 = '2022'
+let month01 = '10'
+let day1 = '14'
+let writer01 = 'ベレト'
 let tag01 = 'きつねからのお知らせ'
 
 let title02 = 'AAA'
@@ -35,8 +35,6 @@ let tag05 = 'きつねの日常'
 
 let t01 = document.getElementById('No01').innerHTML;
 document.getElementById('No01').innerHTML = '<a href="'+year01+'/'+month01+'/'+month01+day1+'.html" target="_parent"><h1>'+title01+'</h1></a>';
-let t01_1 = document.getElementById('No01-1').innerHTML;
-document.getElementById('No01-1').innerHTML = '<a href="'+year01+'/'+month01+'/'+month01+day1+'.html" target="_parent"><h1>'+title01+'</h1></a>';
 let y01 = document.getElementById('year1').innerHTML;
 document.getElementById('year1').innerHTML = '<a href="'+year01+'/'+year01+'.html" target="_parent">'+year01+'</a>';
 let m01 = document.getElementById('month1').innerHTML;
