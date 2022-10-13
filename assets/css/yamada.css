@@ -24,6 +24,7 @@
     }
     .search-mobile {
         position: relative;
+        display: none;
     }
     .menu-button{
         align-content: left;
