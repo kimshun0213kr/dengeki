@@ -1,8 +1,8 @@
-let title01 = 'AAA'
-let year01 = '2023'
-let month01 = '5'
-let day1 = '5'
-let writer01 = 'aaa'
+let title01 = 'はじめまして！'
+let year01 = '2022'
+let month01 = '10'
+let day1 = '13'
+let writer01 = 'ベレト'
 let tag01 = 'きつねからのお知らせ'
 
 let title02 = 'AAA'
