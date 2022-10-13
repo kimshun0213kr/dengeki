@@ -82,7 +82,11 @@
         height:auto;
     }
     ul{
-        list-style: none;
+        list-style: none;  
+        margin: auto;
+    }
+    ul li{
+        width: 100%;
     }
     .search {
         display: none;
@@ -90,6 +94,11 @@
     .search-mobile {
         position: relative;
         z-index: 2;
+    }
+    .c1{
+        align-content: center;
+        align-self: center;
+        align-items: center;
     }
     .search-mobile h1 {
         font-size:18px;

@@ -12,3 +12,9 @@ ul{
 .data{
     text-align: right;
 }
+.none{
+    display: none;
+}
+span{
+    display: none;
+}
