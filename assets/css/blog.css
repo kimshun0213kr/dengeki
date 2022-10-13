@@ -7,3 +7,14 @@
 .m1 img{
     width:30%;
 }
+@media screen and (max-width: 480px) {
+    .m1 .blog-bar{
+        text-align: left;
+    }
+    .m1 .information{
+        text-align: right;
+    }
+    .m1 img{
+        width:80%;
+    }
+}
